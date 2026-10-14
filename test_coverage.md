@@ -1,8 +1,10 @@
-# Tests Roadmap
-# Phase 0 - Brightness and lighting
-
-- [x] Helgen dungeon (especially first stormcloak room)
-- [x] Bandit mine next to standing stones
+## 1 - Brightness and lighting
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
+- [x] Helgen dungeon
+- [x] Embershard Mine
 - [x] Draugr crypt
 - [x] Exterior
 	- [x] Day
@@ -23,28 +25,38 @@
 	- [x] jarl palace
 		- [x] Farengar's lab
 - [x] LODs grass & trees
-	- [ ] Community Shaders + Dyndolod recommend this TexGen : (Ambient = 100, Direct = 0, Smoothness = 0)
-# Phase 1 - New game initialization
+
+</details>
+
+## 2 - New game initialization
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
 - [x] Alternate Start 
 	- [x] Default start
+ 	- [x] Alternate start(s)	
 - [x] Character creation
 	- [x] makeup
 - [x] Movement
 - [x] Camera
 - [x] UI
-	- [x] favorite
-	- [x] tab menues
-	- [x] escape menues
+	- [x] Favorite
+	- [x] Tab menus
+	- [x] System menus
 - [x] Wheeler
 - [x] HUD
 - [x] Compass
 - [x] Map
 - [x] Inventory
 - [x] Wait/Sleep
+</details>
 
----
-# Phase 2 - Core gameplay
-
+## 3 - Core gameplay
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
 ### Combat
 - [x] melee
 - [x] power attack
@@ -55,15 +67,13 @@
 - [x] dodge
 - [x] stagger
 - [x] Stealth
-	- [ ] General
-		- [x] Test RAID (other version exist : **LITE** version if too hard)
-		- [ ] stealth 1 shot (and killmoves) shouldn't trigger other npc
-	- [ ] Melee stealth attack
+	- [x] Test RAID medium version
+	- [x] Melee
 	- [x] Ranged
 	- [x] Magic
 		- [x] Crouching should remove light
 - [x] Weapons reach
-	- [x] player (mcm allows to increase range)
+	- [x] player
 	- [x] npcs hand to hand
 
 ---
@@ -73,7 +83,7 @@
 - [x] sleep
 - [x] thirst
 - [x] as a vampire
-- [ ] as a werewolf
+- [x] as a werewolf
 ---
 ### Animations
 - [x] idle
@@ -98,12 +108,7 @@
 - [x] cooking
 - [x] scroll
 - [x] staff
----
-### Leveling and Perks
-- [ ] C.O.I.N + Adamant + Hand to Hand (+ LESS)
-	- [ ] Check compatibility with 
-		- [ ] Rare Gems and Treasure Hunter perks into C.O.I.N.'s
-		- [ ] Hand patch allows Golden Touch to double C.O.I.N.'s unique coinpurses
+
 ---
 ### Hearthfire & housing
 - [ ] Buy a house and decorate to max level
@@ -111,7 +116,15 @@
 - [ ] Mods
 	- [ ] Buy from Steward
 	- [ ] Extended decoration and cellar
-# Phase 3 - Cities
+
+ </details>
+ 
+## 4 - Locations
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
+### Cities
 - [x] Whiterun
 	- [x] Inn (cooking pot + oven)
 	- [x] companions
@@ -157,8 +170,7 @@
 - [x] Ravenrock
 	- [x] Inn (cooking pot + oven)
 
----
-# Phase 4 - JK Interiors
+### JK's Interiors
 
 - [x] Blue Palace
 - [x] Palace of the Kings
@@ -172,7 +184,7 @@
 - [x] Hall of Attainment
 
 ---
-# Phase 5 - Guilds
+### Guilds
 
 - [x] Companions
 - [x] College of Winterhold
@@ -185,7 +197,7 @@
 	- [x] Volkihar castle coc DLC1VampireCastleGuildhall
 
 ---
-# Phase 6 - World
+### World
 - [x] Worldmap
 	- [x] Skyrim
 	- [x] Solstheim coc DLC2RavenRock01
@@ -213,10 +225,9 @@
 - [x] borders (unique border gates)
 
 ---
-# Phase 7 - Dynamic world mods
+### Dynamic world mods
 
 Visit locations affected by:
-
 - [x] Whiterun's watchtower
 	- [x] before dragon attack (not destroyed)
 	- [x] after (destroyed)
@@ -236,10 +247,13 @@ Visit locations affected by:
 		- [x] Sapling
 		- [x] Mid tree
 		- [x] Fully Grown
+</details>
 
----
-# Phase 8 - Audio 
-
+## 5 - Audio 
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
 - [x] tavern
 - [x] dungeon
 - [x] city
@@ -248,9 +262,14 @@ Visit locations affected by:
 - [x] combat
 - [x] waterfall
 
----
-# Phase 9 - NPCs (dialogues - faces - bodies)
+</details>
 
+## 6 - NPCs (dialogues - faces - bodies)
+
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
 - [x] innkeeper
 - [x] guard
 - [x] merchant
@@ -262,29 +281,24 @@ Visit locations affected by:
 	- [x] Masks
 	- [x] New staves (Artificer)
 
----
-# Phase 10 - Economy
+</details>
 
+## 7 - Economy
+### Done ✅
+<details>
+  <summary>Show details</summary>
+	
 - [x] Buy
 - [x] Sell
-- [ ] Honed metal
+- [x] Honed metal
 	- [x] smith
-	- [ ] enchant
-		- [ ] Sergius Turrianus dialog
+	- [x] enchant
 
----
-# Phase 11 - Save safety
+</details>
 
-- [x] Sleep
-- [x] Wait
-- [x] Fast travel
-- [x] Reload
-- [x] Quit
-- [x] Reload again
-
----
-# Phase 12 - Quest smoke tests
-
+## 8 - Quests
+### Doing ⌛
+	
 - [ ] Main quest
 	- [x] Bleak Falls Barrow
 	- [ ] TG++ MQ addon : brynjolf during "A Cornered Rat"
@@ -311,6 +325,7 @@ Visit locations affected by:
 - [ ] Caugh Red Handed extension (alternative path)
 - [ ] The heart of Dibella
 - [ ] Save the Ice Runner
+- [ ] Meridia's Order
 - [ ] Daedric princes (alternatives ending)
 	- [ ] Boethia - Boethia for good guys
 	- [ ] Molag Bal- house of horrors
